@@ -9,7 +9,7 @@ services:
     container_name: sandbox-server-bar
     build: ../../resources/bar
     ports:
-    - '10001:10001'
+    - '10001:10000'
   target:
     container_name: sandbox-target-one
     build: .

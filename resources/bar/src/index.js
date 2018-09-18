@@ -11,5 +11,5 @@ app.all(/.*/, (req, res) => {
 const server = http.createServer(app)
 
 server.listen(10001, () => {
-  console.log('Bar listening on port 10001')
+  console.log('Bar listening on port 10000')
 })
